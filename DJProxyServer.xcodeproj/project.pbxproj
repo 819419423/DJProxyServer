@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6C9530198E19CF003FD19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C952F198E19CF003FD19D /* Foundation.framework */; };
+		0F6C9532198E19CF003FD19D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C9531198E19CF003FD19D /* CoreGraphics.framework */; };
+		0F6C9534198E19CF003FD19D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C9533198E19CF003FD19D /* UIKit.framework */; };
+		0F6C9549198E19CF003FD19D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C9548198E19CF003FD19D /* XCTest.framework */; };
+		0F6C954A198E19CF003FD19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C952F198E19CF003FD19D /* Foundation.framework */; };
+		0F6C954B198E19CF003FD19D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6C9533198E19CF003FD19D /* UIKit.framework */; };
+		0F6C9553198E19CF003FD19D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C9551198E19CF003FD19D /* InfoPlist.strings */; };
+		0F6C9555198E19CF003FD19D /* DJProxyServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C9554198E19CF003FD19D /* DJProxyServerTests.m */; };
+		0F6C9567198E1AFC003FD19D /* DJProxyServer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C9562198E1AFC003FD19D /* DJProxyServer-Info.plist */; };
+		0F6C9568198E1AFC003FD19D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C9564198E1AFC003FD19D /* InfoPlist.strings */; };
+		0F6C9569198E1AFC003FD19D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C9566198E1AFC003FD19D /* main.m */; };
+		0F6C956D198E1B41003FD19D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C956C198E1B41003FD19D /* AppDelegate.m */; };
+		0F6C9572198E1BEC003FD19D /* DJHTTPAsyncDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C9571198E1BEC003FD19D /* DJHTTPAsyncDataResponse.m */; };
+		0F6C9577198E1D53003FD19D /* NSData+CocoaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C9576198E1D53003FD19D /* NSData+CocoaHTTPServer.m */; };
+		179088B3B76841A5B83665E3 /* libPods-DJProxyServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC73F166CA4BADB4AAD49D /* libPods-DJProxyServer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F6C954C198E19CF003FD19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6C9524198E19CF003FD19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6C952B198E19CF003FD19D;
+			remoteInfo = DJProxyServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072408CDBE074FDC824A9D10 /* Pods-DJProxyServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJProxyServer.xcconfig"; path = "Pods/Pods-DJProxyServer.xcconfig"; sourceTree = "<group>"; };
+		0F6C952C198E19CF003FD19D /* DJProxyServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJProxyServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6C952F198E19CF003FD19D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F6C9531198E19CF003FD19D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F6C9533198E19CF003FD19D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F6C9547198E19CF003FD19D /* DJProxyServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJProxyServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6C9548198E19CF003FD19D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0F6C9550198E19CF003FD19D /* DJProxyServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DJProxyServerTests-Info.plist"; sourceTree = "<group>"; };
+		0F6C9552198E19CF003FD19D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F6C9554198E19CF003FD19D /* DJProxyServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJProxyServerTests.m; sourceTree = "<group>"; };
+		0F6C9562198E1AFC003FD19D /* DJProxyServer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DJProxyServer-Info.plist"; sourceTree = "<group>"; };
+		0F6C9563198E1AFC003FD19D /* DJProxyServer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJProxyServer-Prefix.pch"; sourceTree = "<group>"; };
+		0F6C9565198E1AFC003FD19D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F6C9566198E1AFC003FD19D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F6C956C198E1B41003FD19D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F6C956E198E1B7B003FD19D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F6C9570198E1BEC003FD19D /* DJHTTPAsyncDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHTTPAsyncDataResponse.h; sourceTree = "<group>"; };
+		0F6C9571198E1BEC003FD19D /* DJHTTPAsyncDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHTTPAsyncDataResponse.m; sourceTree = "<group>"; };
+		0F6C9575198E1D53003FD19D /* NSData+CocoaHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CocoaHTTPServer.h"; sourceTree = "<group>"; };
+		0F6C9576198E1D53003FD19D /* NSData+CocoaHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CocoaHTTPServer.m"; sourceTree = "<group>"; };
+		89DC73F166CA4BADB4AAD49D /* libPods-DJProxyServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJProxyServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F6C9529198E19CF003FD19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C9532198E19CF003FD19D /* CoreGraphics.framework in Frameworks */,
+				0F6C9534198E19CF003FD19D /* UIKit.framework in Frameworks */,
+				0F6C9530198E19CF003FD19D /* Foundation.framework in Frameworks */,
+				179088B3B76841A5B83665E3 /* libPods-DJProxyServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6C9544198E19CF003FD19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C9549198E19CF003FD19D /* XCTest.framework in Frameworks */,
+				0F6C954B198E19CF003FD19D /* UIKit.framework in Frameworks */,
+				0F6C954A198E19CF003FD19D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6C9523198E19CF003FD19D = {
+			isa = PBXGroup;
+			children = (
+				0F6C9535198E19CF003FD19D /* DJProxyServer */,
+				0F6C956A198E1B41003FD19D /* DJProxyServer Example */,
+				0F6C9561198E1AFC003FD19D /* Supporting Files */,
+				0F6C954E198E19CF003FD19D /* DJProxyServerTests */,
+				0F6C952E198E19CF003FD19D /* Frameworks */,
+				0F6C952D198E19CF003FD19D /* Products */,
+				072408CDBE074FDC824A9D10 /* Pods-DJProxyServer.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0F6C952D198E19CF003FD19D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C952C198E19CF003FD19D /* DJProxyServer.app */,
+				0F6C9547198E19CF003FD19D /* DJProxyServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6C952E198E19CF003FD19D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C952F198E19CF003FD19D /* Foundation.framework */,
+				0F6C9531198E19CF003FD19D /* CoreGraphics.framework */,
+				0F6C9533198E19CF003FD19D /* UIKit.framework */,
+				0F6C9548198E19CF003FD19D /* XCTest.framework */,
+				89DC73F166CA4BADB4AAD49D /* libPods-DJProxyServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F6C9535198E19CF003FD19D /* DJProxyServer */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C9574198E1D39003FD19D /* Categories */,
+				0F6C9570198E1BEC003FD19D /* DJHTTPAsyncDataResponse.h */,
+				0F6C9571198E1BEC003FD19D /* DJHTTPAsyncDataResponse.m */,
+			);
+			path = DJProxyServer;
+			sourceTree = "<group>";
+		};
+		0F6C954E198E19CF003FD19D /* DJProxyServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C9554198E19CF003FD19D /* DJProxyServerTests.m */,
+				0F6C954F198E19CF003FD19D /* Supporting Files */,
+			);
+			path = DJProxyServerTests;
+			sourceTree = "<group>";
+		};
+		0F6C954F198E19CF003FD19D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C9550198E19CF003FD19D /* DJProxyServerTests-Info.plist */,
+				0F6C9551198E19CF003FD19D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F6C9561198E1AFC003FD19D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C9562198E1AFC003FD19D /* DJProxyServer-Info.plist */,
+				0F6C9563198E1AFC003FD19D /* DJProxyServer-Prefix.pch */,
+				0F6C9564198E1AFC003FD19D /* InfoPlist.strings */,
+				0F6C9566198E1AFC003FD19D /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F6C956A198E1B41003FD19D /* DJProxyServer Example */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C956E198E1B7B003FD19D /* AppDelegate.h */,
+				0F6C956C198E1B41003FD19D /* AppDelegate.m */,
+			);
+			path = "DJProxyServer Example";
+			sourceTree = "<group>";
+		};
+		0F6C9574198E1D39003FD19D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C9575198E1D53003FD19D /* NSData+CocoaHTTPServer.h */,
+				0F6C9576198E1D53003FD19D /* NSData+CocoaHTTPServer.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F6C952B198E19CF003FD19D /* DJProxyServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6C9558198E19CF003FD19D /* Build configuration list for PBXNativeTarget "DJProxyServer" */;
+			buildPhases = (
+				6394BAD2304B47949A13A04E /* Check Pods Manifest.lock */,
+				0F6C9528198E19CF003FD19D /* Sources */,
+				0F6C9529198E19CF003FD19D /* Frameworks */,
+				0F6C952A198E19CF003FD19D /* Resources */,
+				5C4775D030664F03AB314483 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJProxyServer;
+			productName = DJProxyServer;
+			productReference = 0F6C952C198E19CF003FD19D /* DJProxyServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F6C9546198E19CF003FD19D /* DJProxyServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6C955B198E19CF003FD19D /* Build configuration list for PBXNativeTarget "DJProxyServerTests" */;
+			buildPhases = (
+				0F6C9543198E19CF003FD19D /* Sources */,
+				0F6C9544198E19CF003FD19D /* Frameworks */,
+				0F6C9545198E19CF003FD19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6C954D198E19CF003FD19D /* PBXTargetDependency */,
+			);
+			name = DJProxyServerTests;
+			productName = DJProxyServerTests;
+			productReference = 0F6C9547198E19CF003FD19D /* DJProxyServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F6C9524198E19CF003FD19D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jing Dai";
+				TargetAttributes = {
+					0F6C9546198E19CF003FD19D = {
+						TestTargetID = 0F6C952B198E19CF003FD19D;
+					};
+				};
+			};
+			buildConfigurationList = 0F6C9527198E19CF003FD19D /* Build configuration list for PBXProject "DJProxyServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F6C9523198E19CF003FD19D;
+			productRefGroup = 0F6C952D198E19CF003FD19D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F6C952B198E19CF003FD19D /* DJProxyServer */,
+				0F6C9546198E19CF003FD19D /* DJProxyServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F6C952A198E19CF003FD19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C9567198E1AFC003FD19D /* DJProxyServer-Info.plist in Resources */,
+				0F6C9568198E1AFC003FD19D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6C9545198E19CF003FD19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C9553198E19CF003FD19D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C4775D030664F03AB314483 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-DJProxyServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6394BAD2304B47949A13A04E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6C9528198E19CF003FD19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C956D198E1B41003FD19D /* AppDelegate.m in Sources */,
+				0F6C9577198E1D53003FD19D /* NSData+CocoaHTTPServer.m in Sources */,
+				0F6C9572198E1BEC003FD19D /* DJHTTPAsyncDataResponse.m in Sources */,
+				0F6C9569198E1AFC003FD19D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6C9543198E19CF003FD19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6C9555198E19CF003FD19D /* DJProxyServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6C954D198E19CF003FD19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F6C952B198E19CF003FD19D /* DJProxyServer */;
+			targetProxy = 0F6C954C198E19CF003FD19D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F6C9551198E19CF003FD19D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6C9552198E19CF003FD19D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F6C9564198E1AFC003FD19D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6C9565198E1AFC003FD19D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F6C9556198E19CF003FD19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F6C9557198E19CF003FD19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F6C9559198E19CF003FD19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072408CDBE074FDC824A9D10 /* Pods-DJProxyServer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJProxyServer/DJProxyServer-Prefix.pch";
+				INFOPLIST_FILE = "DJProxyServer/DJProxyServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F6C955A198E19CF003FD19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072408CDBE074FDC824A9D10 /* Pods-DJProxyServer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJProxyServer/DJProxyServer-Prefix.pch";
+				INFOPLIST_FILE = "DJProxyServer/DJProxyServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0F6C955C198E19CF003FD19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DJProxyServer.app/DJProxyServer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJProxyServer/DJProxyServer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DJProxyServerTests/DJProxyServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0F6C955D198E19CF003FD19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DJProxyServer.app/DJProxyServer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJProxyServer/DJProxyServer-Prefix.pch";
+				INFOPLIST_FILE = "DJProxyServerTests/DJProxyServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6C9527198E19CF003FD19D /* Build configuration list for PBXProject "DJProxyServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6C9556198E19CF003FD19D /* Debug */,
+				0F6C9557198E19CF003FD19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6C9558198E19CF003FD19D /* Build configuration list for PBXNativeTarget "DJProxyServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6C9559198E19CF003FD19D /* Debug */,
+				0F6C955A198E19CF003FD19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6C955B198E19CF003FD19D /* Build configuration list for PBXNativeTarget "DJProxyServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6C955C198E19CF003FD19D /* Debug */,
+				0F6C955D198E19CF003FD19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F6C9524198E19CF003FD19D /* Project object */;
+}
